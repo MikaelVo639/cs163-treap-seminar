@@ -7,7 +7,7 @@ This project is a Seminar assignment for the Data Structures course (CS163), foc
 * `presentation/`: Contains presentation materials (PPTX, PDF slides).
 * `treap/`: Contains the C++ source code for the Standard Treap implementation.
 * `programing_assignment/`: Source code, algorithm analysis files, and test cases (`.inp`/`.out`) for 4 competitive programming problems demonstrating the power of Treaps.
-* `dataset/`: Contains datasets to compare Treap with another data structures and naive solution.
+* `comparison/`: Contains source code, datasets and results when comparing treap with other data structures and naive solution.
 
 ## Overview of Treap
 
