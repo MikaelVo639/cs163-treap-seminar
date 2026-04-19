@@ -2,6 +2,12 @@
 
 This project is a Seminar assignment for the Data Structures course (CS163), focusing on the research, implementation, performance evaluation, and practical applications of the **Treap** data structure.
 
+## Repository Structure
+
+* `presentation/`: Contains presentation materials (PPTX, PDF slides).
+* `treap/`: Contains the C++ source code for the Standard Treap implementation.
+* `programing_assignment/`: Source code, algorithm analysis files, and test cases (`.inp`/`.out`) for 4 competitive programming problems demonstrating the power of Treaps.
+
 ## Overview of Treap
 
 A Treap is a randomized self-balancing binary search tree (combining the concepts of Tree and Heap).
@@ -9,12 +15,6 @@ A Treap is a randomized self-balancing binary search tree (combining the concept
 * **BST (Binary Search Tree) Property:** For any given node, all nodes in its left subtree have smaller keys, and all nodes in its right subtree have larger keys.
 * **Heap Property:** Each node is assigned a random priority when created. The structure maintains a Max-Heap property, meaning the priority of a parent node is always greater than or equal to its children.
 * Thanks to this randomness, the expected height of a Treap is $O(\log_2(N))$, ensuring optimal performance for query, insertion, and deletion operations without the need for complex tree rotation rules like in AVL or Red-Black Trees.
-
-## Repository Structure
-
-* `presentation/`: Contains presentation materials (PPTX, PDF slides).
-* `treap/`: Contains the C++ source code for the Standard Treap implementation.
-* `programing_assignment/`: Source code, algorithm analysis files, and test cases (`.inp`/`.out`) for 4 competitive programming problems demonstrating the power of Treaps.
 
 ## Core Operations
 
